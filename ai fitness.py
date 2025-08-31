@@ -4,7 +4,7 @@ from agno.agent import Agent
 from agno.models.google import Gemini
 from agno.tools.duckduckgo import DuckDuckGoTools
 
-GOOGLE_API_KEY = "AIzaSyCr35hxFrpVsbNWgqOwU6PwmkpwLmO2dJA"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Dietary Planner Agent
@@ -215,3 +215,4 @@ if st.sidebar.button("Generate Health Plan"):
                 <p>Consistency is key! Keep pushing yourself, and you will see results. Your fitness journey starts now!</p>
             </div>
         """, unsafe_allow_html=True)
+
